@@ -1,11 +1,11 @@
-[# Movie Ticket Booking System
+# Movie Ticket Booking System
 
 ## Project Description
 
 This is a Java-based Movie Ticket Booking System,designed using the Model-View-Controller (MVC) design pattern.The application allows users to book movie tickets, view available movies,and manage bookings.It provides a graphical user interface (GUI) built with JavaFX and interacts with a PostgreSQL database to store movie and booking information.
 
 The system includes the following features:
-- Adding,updating,and deleting movies.
+- Adding, updating,and deleting movies.
 - Viewing all movies in the database.
 - Booking tickets for selected movies with date and seat information.
 - Managing bookings: adding,updating,and deleting bookings.
@@ -15,36 +15,36 @@ The system includes the following features:
 
 ## Project Requirements List
 
-- Movie Management:
-  1. Add a new movie with details such as title,genre,duration,release date,and rating.
-  2. View a list of all available movies.
-  3. Update movie details.
-  4. Delete a movie from the database.
+### Movie Management:
+- Add a new movie with details such as title, genre and price.
+- View a list of all available movies.
+- Update movie details.
+- Delete a movie from the database.
 
-- Booking Management:
-  5. Add a new booking (user name,movie title,seat count,showtime,booking date).
-  6. View all bookings.
-  7. Update booking details (user name,movie title,seat count,etc.).
-  8. Delete a booking.
+### Booking Management:
+- Add a new booking (user name, movie title, seat count, booking date).
+- View all bookings.
+- Update booking details (user name, movie title, seat count, etc.).
+- Delete a booking.
 
-- Database Interaction:
-  9. Database connection using JDBC to interact with a PostgreSQL database.
-  10. Store and retrieve movie and booking data through SQL queries.
+### Database Interaction:
+- Database connection using JDBC to interact with a PostgreSQL database.
+- Store and retrieve movie and booking data through SQL queries.
 
-- User Interface:
-  11. Graphical user interface (GUI) built with JavaFX.
-  12. Input validation and user notifications for incorrect data or missing information.
-  13. Responsive design for different screen sizes.
+### User Interface:
+- Graphical user interface (GUI) built with JavaFX.
+- Input validation and user notifications for incorrect data or missing information.
+- Responsive design for different screen sizes.
   
-- Testing:
-  14. Unit tests for the business logic of the Movie and Booking models.
-  15. Ensuring the system functions correctly through integration tests.
+### Testing:
+- Unit tests for the business logic of the Movie and Booking models.
+- Ensuring the system functions correctly through integration tests.
 
 ---
 
 ## Team Members
 
-- Team - Project Leaders
+Team - Project Leaders
 - Kokumova Aidana - UI/UX Designer, Front-End Developer
 - Rahmatova Leyla - Backend Developer,Database Specialist
 - Bekten uly Mukhammed - Presentation,Testing Specialist
@@ -70,36 +70,52 @@ The system includes the following features:
 ## Screenshots
 
 - Main Interface:  
-  ![Main Interface](path-to-your-screenshot.png)
+
+![image](https://github.com/user-attachments/assets/6c01962a-c661-4777-a5d5-9df6a7a98b82)
+
+![image](https://github.com/user-attachments/assets/25b82b26-b122-49ef-b487-4c1ea51ab65f)
+
   
-- Movie Booking Screen:  
-  ![Booking Screen](path-to-your-screenshot.png)
+- Database Connection:  
+
+![image](https://github.com/user-attachments/assets/1cc773b1-969a-4351-8cf8-5863dcd9260f)
+
+![image](https://github.com/user-attachments/assets/5389136b-dd46-4209-9860-d87cb9a1a967)
+
+
+- Main.java:
+
+![image](https://github.com/user-attachments/assets/c15f5416-eacc-4faa-8b03-f3d306a16db1)
+
 
 ---
 
 ## UML Class Diagram
 
 The UML Class Diagram outlines the structure of the Movie Ticket Booking System, including the relationships between the Movie, Booking, and DAO classes.  
-![UML Diagram](path-to-your-uml-diagram.png)
+![image](https://github.com/user-attachments/assets/dca22120-a5cd-469b-b487-d151f7b32836)
+
+
 
 ---
 
 ## Code Structure
 
 ### Model:
-- Movie.java: Represents the Movie entity,with attributes like title,genre,duration,release date,and rating.
-- Booking.java: Represents a Booking entity,containing information like user name,movie title,seat count,showtime,and booking date.
+- Movie.java: Represents the Movie entity,with attributes like title, genre and price.
+- Booking.java: Represents a Booking entity,containing information like user name, movie title, seat count and booking date.
 
 ### View:
 - HelloApplication.java: The main entry point for the JavaFX application that initializes the GUI and launches the main stage.
-- HelloController.java: Handles user input,including booking tickets,validating user data,and updating the GUI with notifications.
-
-### Controller:
+- HelloController.java: Handles user input,including booking tickets, validating user data, and updating the GUI with notifications.
+  
+- ### Controller:
 - MovieDAO.java: Provides data access methods for movie-related operations (CRUD-Create,Read,Update,Delete).
 - BookingDAO.java: Handles database operations related to bookings.
 - DAOInterface.java: A generic interface that both MovieDAO and BookingDAO implement to handle CRUD operations.
-- ### Database:
-- PostgreSQL is used as the database for storing movies and bookings.The system connects to the database through JDBC.
+
+### Database:
+- PostgreSQL is used as the database for storing movies and bookings. The system connects to the database through JDBC.
 
 ---
 
@@ -113,7 +129,7 @@ Unit tests for model methods are provided in the test directory.Tests ensure tha
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/movie-ticket-booking.git](https://github.com/Bektenovich/projectOOP.git)
+   git clone [https://github.com/lleylawa/MovieTicket-Booking.git]
    
 ---
 
@@ -123,4 +139,3 @@ Presentation is located in our Google Docs and can be found in the following lin
 [Presentation](https://link-to-google-docs)
 
 ---
-](https://github.com/lleylawa/MovieTicket-Booking.git)

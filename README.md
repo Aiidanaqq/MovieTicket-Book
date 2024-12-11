@@ -1,4 +1,4 @@
-# Movie Ticket Booking System
+[# Movie Ticket Booking System
 
 ## Project Description
 
@@ -123,3 +123,4 @@ Presentation is located in our Google Docs and can be found in the following lin
 [Presentation](https://link-to-google-docs)
 
 ---
+](https://github.com/lleylawa/MovieTicket-Booking.git)

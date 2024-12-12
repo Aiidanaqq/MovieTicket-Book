@@ -136,6 +136,6 @@ Unit tests for model methods are provided in the test directory.Tests ensure tha
 ## Presentation
 
 Presentation is located in our Google Docs and can be found in the following link:  
-[Presentation](https://link-to-google-docs)
+[[Presentation](https://link-to-google-docs)](https://drive.google.com/drive/folders/1EiLhyt0MJ7zNYwTRqXFnF0ZkLNa5rWYg?usp=sharing)]
 
 ---
